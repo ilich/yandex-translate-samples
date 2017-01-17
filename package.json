@@ -1,0 +1,26 @@
+{
+  "name": "speech-api-ndc-london-2017",
+  "version": "1.0.0",
+  "description": "HTML 5 Speech API demo for NDC London 2017",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d js",
+    "dev": "./node_modules/.bin/babel src -d js -w",
+    "start": "./node_modules/.bin/static -c 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilich/speech-api-ndc-london-2017.git"
+  },
+  "author": "Ilya Verbitskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilich/speech-api-ndc-london-2017/issues"
+  },
+  "homepage": "https://github.com/ilich/speech-api-ndc-london-2017#readme",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.8",
+    "node-static": "^0.7.9"
+  }
+}
